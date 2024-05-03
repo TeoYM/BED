@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const booksController = require("./controllers/booksController"); // Import controllers
+const booksController = require("./controllers/bookController"); // Import controllers
 const validateBook = require("./middlewares/validateBook");
 const app = express();
 

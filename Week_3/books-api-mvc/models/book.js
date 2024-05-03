@@ -1,15 +1,3 @@
-class Book {
-  constructor(id, title, author) {
-    this.id = id;
-    this.title = title;
-    this.author = author;
-  }
-
-  // ... methods for CRUD operations (explained later)
-}
-
-module.exports = Book;
-
 // Remember: This is a simplified example using an in-memory array. In a real-world scenario, you would use a database to store books data persistently.
 const books = [
   { id: 1, title: "The Lord of the Rings", author: "J.R.R. Tolkien" },
