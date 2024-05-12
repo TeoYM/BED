@@ -1,6 +1,6 @@
 module.exports = {
-    user: "username", // Replace with your SQL Server login username
-    password: "password", // Replace with your SQL Server login password
+    user: "booksapi_user", // Replace with your SQL Server login username
+    password: "t0402634e", // Replace with your SQL Server login password
     server: "localhost",
     database: "bed_db",
     trustServerCertificate: true,
